@@ -1,0 +1,64 @@
+body {
+  justify-content: center;
+  float:inline-end;
+}
+h1 {
+    text-align: center; 
+}
+
+#window {
+  display: flex;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: solid 2px black;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imgSlider {
+ display: flex;
+ animation: carousel 5s infinite;
+}
+
+@keyframes carousel {
+  from {
+    transform: translateX(0);
+  }
+   to {
+    transform: translateX(-1500px); 
+  }
+}
+
+#windowJS {
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgJS {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: auto 0;
+}
+
+#leftButton {
+    display: flex;
+    justify-content: center; 
+}
+#rightButton {
+    display: flex;
+    justify-content: center; 
+}
+
+
